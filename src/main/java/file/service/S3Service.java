@@ -45,7 +45,7 @@ public class S3Service {
 		}
 		
 		// DB 저장
-		String savePath = "C://CE//98.data//" + DIR_NAME;
+		String savePath = "/home/ubuntu/" + DIR_NAME;
 		String attachmentOriginalFileName = file.getOriginalFilename();
 		UUID uuid = UUID.randomUUID();
 		String attachmentFileName = uuid.toString() + "_" + file.getOriginalFilename();
